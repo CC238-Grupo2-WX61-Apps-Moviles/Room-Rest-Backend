@@ -22,13 +22,13 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "Name", length = 40, nullable = false)
+    @Column(name = "name", length = 40, nullable = false)
     private String name;
 
-    @Column(name = "Surname", length = 40, nullable = false)
+    @Column(name = "surname", length = 40, nullable = false)
     private String surname;
 
-    @Column(name = "NumberCellphone", length = 40, nullable = false)
+    @Column(name = "numberCellphone", length = 40, nullable = false)
     private String numberCellphone;
 
     @Column(name = "email", length = 40, nullable = false)
